@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name ="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Power Proof - Customer Dashboard</title>
+        <link rel="stylesheet" href="/static/css/customer.css">
+        <link href="https://fonts.googleapis.com/css2?
+        family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="top-nav">
+            <div class="nav-brand">
+                <span class="icon"></span>
+                <span>Power Proof</span>
+            </div>
+            <div class="nav-links">
+                <a href="/" class="link">Office view</a>
+                <div class="user-profile">
+                    <span class="icon"></span>
+                    <span class="avatar"></span>
+                    <span id="header-home-id">H001</span>
+                </div>
+            </div>
+        </nav>
+
+        <div class="dashboard-container">
+            <header class="welcome-header">
+                <h1>Customer Dashboard</h1>
+            </header>
+            
+
+            <section class="comparison-section">
+                <div class="card compare-card">
+                    <div class="compare-grid">
+                        <div class="compare-col home-col">
+                            <h2>🏠MY HOME</h2>
+                            <div class="power-status">
+                                <div class="power-status">
+                                    <span class ="status-icon"id="home-icon">🪩</span>
+                                    <span class="status-text main-status" id="home-status">AWAITING DEVICE...</span>
+                                </div>
+                                <p class="voltage"><span id="home-voltage">--</span></p>
+                                <p class="last-update">Last update:<span id="home-update">--</span></p>
+                            </div>
+                            <div class="compare-divider"></div>
+                            <div class="comapre-col pole-col">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+
+</html>
